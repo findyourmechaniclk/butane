@@ -92,7 +92,7 @@ jobs:
       with:
         toolchain: nightly
         components: rustfmt
-        cache: false
+        cache: true
     - name: Add Rust stable toolchain
       uses: actions-rust-lang/setup-rust-toolchain@v1
       with:
